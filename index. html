@@ -1,0 +1,207 @@
+<!doctype html>
+<html>
+ <head> 
+  <title>REGISTRATION FORM</title> 
+  <link rel="stylesheet" href="form in css. Css"> 
+ </head> 
+ <body> 
+  <fieldset> <legend align="center">RIGISTRATION FORM</legend> 
+   <div> <lable style="color:darkgreen" for="un">
+      Enter Your Name 
+     <input type="text" name="username" id="un" placeholder="enter your name"> 
+    </lable> 
+   </div> 
+   <br> 
+   <div> <label style="color:darkgreen" for="e">enter your mail id</label> 
+    <input type="email" name="email" id="e" placeholder="enter your email"> 
+   </div> 
+   <br> 
+   <div> <label style="color:darkgreen" for="m">Mobile Number</label> 
+    <input type="number" name="mobile" id="m"> 
+   </div> 
+   <br> 
+   <div> <label style="color:darkgreen" for="g">Gender</label> 
+    <input type="radio" name="gender" id="g">Female 
+    <input type="radio" name="gender" id="g">Male 
+   </div> 
+   <br> 
+   <div> <label style="color:darkgreen" for="d">enter DOB</label> 
+    <input type="date" name="DOB" id="d"> 
+   </div> 
+   <br> 
+   <div> <label style="color:darkgreen" for="a">Address</label> <textarea name="address" id="a" cols="10" rows="10"></textarea> 
+   </div> 
+   <br> 
+   <div> <lable style="color:darkgreen" for="c">
+      select city 
+    </lable> <select name="city" id="c"> <option value=""></option> <option value="hyd">Hyderabad </option> <option value="nlg">Nalgonda</option> <option value="vizag">Vizag</option> <option value="bang">Bangalore</option> </select> 
+   </div> 
+   <br> 
+   <div> <label style="color:darkgreen" for="s">select state</label> <select name="state" id="s"> <option value=""></option> <option value="TS">Telangana</option> <option value="Ap">Andhrapradesh</option> <option value="odisha"></option> </select> 
+   </div> 
+   <br> 
+   <div> <label style="color:darkgreen" for="y">year of passing</label> 
+    <input type="year" name="year" id="y"> 
+   </div> 
+   <br> 
+   <div> <label style="color:darkgreen" for="q">Qualification</label> 
+    <input type="checkbox" name="degree" id="q">BSC 
+    <input type="checkbox" name="degree" id="q">MBA 
+    <input type="checkbox" name="degree" id="q">MCA 
+    <input type="checkbox" name="degree" id="q">BTECH 
+   </div> 
+   <br> 
+   <div> <label style="color:darkgreen" for="t">Technical skills</label> 
+    <input type="technical" name="skills" id="t"> 
+   </div> 
+   <br> 
+   <div> <label style="color:darkgreen" for="g">Graduation scored</label> 
+    <input type="graduation" name="scored" id="g"> 
+   </div> 
+   <br> 
+   <div> <label style="color:darkgreen" for="r">upload your resume</label> 
+    <input type="file" name="resume" id="r"> 
+   </div> 
+   <br> 
+   <div> 
+    <input type="submit" value="submit"> 
+    <input type="reset" value="reset"> 
+   </div> 
+  </fieldset> 
+ </body>
+</html> 
+
+body
+{
+  background-image: url("https://i.ibb.co/L1kQJ1L/aesthetic-background-6.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+fieldset
+{
+  border: 15px solid black;
+}
+input[type=text], select 
+  
+  {
+  
+  width: 50%;
+  Padding: 12px 20px;
+  margin: 8px 0px;
+  border: 1px solid black;
+  box-sizing: border-box;
+  border-radius: 15px;
+  background-color: cyan;
+}
+input[type=email],select
+{
+  width: 50%;
+  Padding: 12px 20px;
+  margin: 8px 0px;
+  border: 1px solid black;
+  box-sizing: border-box;
+  border-radius: 15px;
+  background-color: lightcoral; 
+}
+input[type=number],select
+{
+  width: 50%;
+  Padding: 12px 20px;
+  margin: 8px 0px;
+  border: 1px solid black;
+  box-sizing: border-box;
+  border-radius: 15px;
+  background-color: darkolivegreen;  
+}
+input[type=date], select
+{
+  width: 40%;
+  Padding: 12px 20px;
+  margin: 8px 0px;
+  border: 1px solid black;
+  box-sizing: border-box;
+  border-radius: 15px;  
+  background-color: lightpink;
+}
+textarea
+{
+    width: 140px;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: aquamarine; 
+ }
+ select[name=city] 
+ {
+    width: 40%;
+  Padding: 12px 20px;
+  margin: 8px 0px;
+  border: 1px solid black;
+   box-sizing: border-box;
+  border-radius: 15px; 
+  background-color: orchid;
+ }
+ Select[name=state]
+ {
+   width: 40%;
+  Padding: 12px 20px; 
+  margin: 8px 0px;
+  border: 1px solid black;
+   box-sizing: border-box; 
+   border-radius: 15px; 
+  background-color: peachpuff;
+ }
+ input[type=year]
+ {
+   width: 40%;
+  Padding: 12px 20px; 
+  margin: 8px 0px;
+  border: 1px solid black; 
+  box-sizing: border-box; 
+   border-radius: 15px; 
+  background-color: rgb(23,26,33);
+ }
+ input[type=technical]
+ {
+ 
+  width: 40%;
+  Padding: 12px 20px; 
+  margin: 8px 0px;
+  border: 1px solid black;  
+ box-sizing: border-box; 
+   border-radius: 15px; 
+  background-color:powderblue;
+  }
+  input[type=graduation]
+  {
+    width: 40%;
+  Padding: 12px 20px; 
+  margin: 8px 0px; 
+  border: 1px solid black;  
+ box-sizing: border-box; 
+ border-radius: 15px;  
+ background-color:skyblue;
+  }
+  
+  input[type=file]
+  {
+    width: 40%;
+  Padding: 12px 20px;  
+  margin: 8px 0px; 
+  border: 1px solid black;  
+ box-sizing: border-box; 
+ border-radius: 15px;  
+ background-color:lightpink; 
+  
+  }
+ input[type=submit]
+ {     
+    background-color: deepskyblue; 
+    }
+  input[type=reset]  
+  {
+    background-color:hotpink;
+  } 
